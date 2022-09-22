@@ -16,4 +16,14 @@ console.log(resultado);
     console.log('Ejecutando la funcion: ' + (a + b));
 })(3,4);
 
+let resta = function (a,b){return a + b};
+
 //Funciones flecha
+
+resultado = resta(1,2);
+console.log(resultado);
+
+const sumarFuncion = (a, b) => a + b;
+resultado = sumarFuncion(19 ,12);
+
+console.log(resultado);
