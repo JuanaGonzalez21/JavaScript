@@ -3,7 +3,7 @@
 
 //AND && regrsa true si ambos son verdaderos
 let a = 5;
-let valMin = 00, valMax = 10;
+let valMin = 0, valMax = 10;
 
 if( a >= valMin && a <= valMax ){
     console.log("Si esta en el rango");

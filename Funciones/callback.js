@@ -16,9 +16,9 @@ function imprimir(mensaje){
     console.log(mensaje)
 }
 
-function sumar(op1, op2, funcionCallback){
+function sumar(op1, op2, imprimir){
     let resultado = op1 + op2
-    funcionCallback(resultado)
+    imprimir(resultado)
 }
 
 sumar(5,3, imprimir) 
