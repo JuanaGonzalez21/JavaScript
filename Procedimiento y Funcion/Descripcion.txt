@@ -1,0 +1,16 @@
+En esta carpeta se describe lo siguiente:
+1. Como declarar una función con parámetros y a su vez, pasarle parámetros para trabajar con ellos.Además de los siguientes temas:
+    » Paso de valor a una función
+    » Paso por referencia
+2. Cadenas y funciones
+    » Cadenas Inmutables ( No se afectan )
+3. Alcance de Variables 
+4. Funciones recursivas
+    » Reglas: 
+        1. Se debe de mandar a llamar así misma (Llamada recursiva)
+        2. Debe avanzar hacia un caso base ( Llegar a un punto o finalizar la función)
+5. Funciones incorporadas
+6. Cadenas
+    1. Subcadenas
+        » Extrar caracteres con la funcion substring
+    1. Concatenacion
