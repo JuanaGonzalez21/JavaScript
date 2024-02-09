@@ -32,3 +32,20 @@ console.log(ejercicio) ;
 let cadenaUno = 'Hola', cadenaDos = 'Mundo'
 let concatenacion = cadenaUno + ' ' + cadenaDos;
 console.log(concatenacion);
+
+//String Interpolation
+let cadenaTres = `${cadenaUno} ${cadenaDos}`
+console.log(cadenaTres)
+
+//<-------------------Cadena a número--------------------->
+
+let a = '10', b = '20'
+let suma = parseInt(a)+ parseInt(b);
+console.log(suma)
+
+//<-------------------Número a cadena--------------------->
+
+let c = 10, d = 20
+
+let concatenar = a.toString() + b.toString()
+console.log(concatenar)

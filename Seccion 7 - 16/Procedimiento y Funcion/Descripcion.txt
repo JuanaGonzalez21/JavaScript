@@ -13,4 +13,12 @@ En esta carpeta se describe lo siguiente:
 6. Cadenas
     1. Subcadenas
         » Extrar caracteres con la funcion substring
-    1. Concatenacion
+    2. Concatenacion
+    3. Cadena a número
+        » Utilizando el metodo parseInt
+    4. Número a cadena
+        » Utilizando el metodo .toString
+4. Números
+    1. Valor absoluto
+    2. Redondeo
+    3. Truncado
