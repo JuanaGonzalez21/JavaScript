@@ -1,0 +1,4 @@
+En esta carpeta contiene lo siguientes archivos:
+    1. Promesas
+        » Promesas con setTimeout
+        » Promesas con Async

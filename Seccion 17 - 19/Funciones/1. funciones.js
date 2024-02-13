@@ -5,7 +5,7 @@ function miFuncion(){
 }
 
 //Flecha
-const funcion = () => {
+const funcionFlecha = () => {
     console.log('Función flecha')
 }
 
@@ -16,7 +16,7 @@ let funcionAnonima = function (){
 
 
 miFuncion()
-funcion()
+funcionFlecha()
 funcionAnonima()
 
 const functionFlecha = () => console.log('Funcion simple');

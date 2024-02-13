@@ -1,0 +1,9 @@
+En esta carpeta contiene lo siguientes archivos:
+1. Funciones
+    » Manera clasica de utilizar funciones
+    » Funcion flecha 
+    » Funcion Anonima
+2. Callback ( Llamado de vuelta )
+    » El objetivo es para procesos asincronos ( una línea a la vez )
+    1. Funcion setTimeout
+3. SetInterval ( Llama varias veces según el tiempo)
