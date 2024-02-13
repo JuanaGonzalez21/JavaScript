@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Accediendo a formulario</title>
+  </head>
+
+  <body>
+    <h1>Formulario</h1>
+    <form name="formulario">
+      <label> Nombre: </label>
+      <input type="text" name="nombre" value="Juan" />
+      <br />
+      <label> Apellido: </label>
+      <input type="text" name="apellido" value="Perez" />
+    </form>
+
+    <button onclick="mostrarValores()">Mostrar</button>
+
+    <div id="valores">
+      <label style="color: black; font-size: 25px" id="texto"></label>
+    </div>
+
+    <script>
+      function mostrarValores() {
+        let formulario = document.forms["formulario"];
+        let texto = "";
+
+        let nombre = formulario["nombre"];
+        let apellido = formulario["apellido"];
+
+        //Recuperar el valor . value
+        texto = nombre.value + " " + apellido.value;
+
+        // for( let elementos of formulario){
+        //     texto += elementos.value + '<br/>'
+        // }
+        document.getElementById("texto").innerHTML = texto;
+      }
+    </script>
+  </body>
+</html>

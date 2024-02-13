@@ -1,0 +1,19 @@
+En esta carpeta contiene lo siguientes archivos:
+    1. index.html
+        » Explicacion del DOM
+        » Interaccion de los objetos HTML y JS con document.get...
+        » Leer y modifcar el contenido del parrafo con el método innerHTML
+        » Adquirir elementos a partir de getElementsByTagName
+        » Recuperar todos los elementos con una clase con getElementsByClassName
+        » Extraer la clase y recuperar el elemento especifico "p.clase" con querySelectorAll
+    2. index2.html
+        » Acceder al formulario a partir de .forms para así acceder al arreglo
+        » Acceder a los elementos del formulario como si fuese un arreglo
+        » Acceder a los valores de los elementos a partir de el valor .VALUE
+    3. index3.html
+        » Manejar valores enviandolos a partir del DOM con el siguiente método
+            •.write() -> pero remplazara lo inicialel html
+        » Hacer cambios a los atributos tales como SRC accediendo desde el id
+    4. index4.htm
+        » Hacer cambios a los estilos con el atributo .style
+        

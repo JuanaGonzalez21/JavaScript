@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8" />
+    <title>Web DOM</title>
+    <style>
+      .rosa{
+        color:pink;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="cabecero" class="rosa">Ejemplo DOM con JavaScript</h1>
+    <p id="parrafo" class="rosa">Saludos!</p>
+    <p id="parrafo2">Otro parrado</p>
+
+    <!--Codigo JavaScript -->
+    <script>
+        let cabecero = document.getElementById('cabecero');
+        let parrafo = document.getElementById('parrafo');
+
+        console.log(`Valor cabecero : ${cabecero.innerHTML}, y el valor de parrafo: ${parrafo.innerHTML}`)
+
+        // parrafo.innerHTML = 'Nuevo valor de parrafo'
+        // cabecero.innerHTML = 'Nuevo cabecero usando innerHTML'
+
+        //Cuando se utiliza getElementsByTagName no es necesario utilizar id
+      let parrafos = document.getElementsByTagName('p')
+      console.log(`No. parrafos: ${parrafos.length}`)
+
+      for( let i = 0; i<parrafos.length; i++){
+        console.log(`indice: ${i}, parrafo: ${parrafos[i].innerHTML}`)
+      }
+
+      let parrafosClass = document.getElementsByClassName('rosa');
+      console.log(`No. de elementos con esa clase: ${parrafosClass.length}`)
+
+        // for( let i = 0; i<parrafosClass.length; i++){
+        //   console.log(`indice: ${i}, elementos: ${parrafosClass[i].innerHTML}`)
+        // }
+      
+        // For in loop
+        for(let elemento of parrafosClass){
+          console.log(`elementos: ${elemento.innerHTML}`)
+        }
+
+        let seleccionarElemento = document.querySelectorAll('h1.rosa')
+        console.log(`No. elementos: ${seleccionarElemento.length}`)
+        for(let elementoClase of seleccionarElemento){
+          console.log(`elementos con clase: ${elementoClase.innerHTML}`)
+        }
+
+    </script>
+
+  </body>
+</html>
