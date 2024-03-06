@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Manejo Dom</title>
+</head>
+
+<body>
+  <h1 id="titulo">Hola</h1>
+  <br />
+  <label for="Nombre">Nombre</label>
+  <input type="text"  onchange="convertir(this)" >
+  <script>
+    function convertir(inputNombre){
+      // Forma uno de recuperar el dato
+      // let nombre = document.getElementById('nombre')
+      // Forma dos
+      inputNombre.value = inputNombre.value.toUpperCase();
+
+    }
+  </script>
+</body>
+
+</html>

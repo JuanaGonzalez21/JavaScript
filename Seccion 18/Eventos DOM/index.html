@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Manejo Dom</title>
+  </head>
+
+  <body>
+    <h1 onclick="cambiarTexto(this)">Hola</h1>
+    <h1 onclick="this.innerHTML = ' Cambio Forma 2'">Texto 2</h1>
+    <br />
+
+    <script>
+      function cambiarTexto(titulo) {
+        console.log(titulo);
+        console.log(titulo.innerHTML);
+        titulo.innerHTML='Cambio de Titulo'
+        console.log(titulo.innerHTML);
+
+      }
+    </script>
+  </body>
+</html>
