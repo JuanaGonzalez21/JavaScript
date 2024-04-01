@@ -1,1 +1,1 @@
-console.log('Clase persona')
+personas = [{nombre : 'JuanGonzalez'},{nombre : 'JorgePineda'}]
