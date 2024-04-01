@@ -1,0 +1,38 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-08">
+    <title> Manejo DOM con JavaScript</title>
+</head>
+
+<body>
+    <h1 id="title"> Manejo DOM con JavaScript</h1>
+    <br />
+    <form id="formulario">
+        Nombre: <input type="text" id="nombre" />
+        <br /><br />
+        Apellido: <input type="text" id="apellido" />
+    </form>
+    <script>
+
+        //<--------------- DELEGACION DE EVENTO ---------------->
+
+        const formulario = document.getElementById('formulario');
+
+
+        //Se pasan tres párametros
+        // 1 Focus, 2 función, 3 true -> da a los objetos hijos la función
+        formulario.addEventListener('focus', (evento) =>{
+            evento.target.style.background = 'pink'
+        }, true);
+
+        formulario.addEventListener('blur', (evento) =>{
+            evento.target.style.background = ''
+        }, true);
+   
+
+    </script>
+</body>
+
+</html>
